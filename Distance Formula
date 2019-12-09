@@ -1,7 +1,0 @@
-import math
-x_one = int(input("Enter the first x coordinate"))
-y_one = int(input("Enter the first y coordinate"))
-x_two = int(input("Enter the second x coordinate"))
-y_two = int(input("Enter the second y coordinate"))
-a= math.sqrt((x_one-x_two)**2+(y_one-y_two)**2)
-print (a)
