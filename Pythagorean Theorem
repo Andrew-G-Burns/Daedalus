@@ -1,0 +1,10 @@
+#pythagorean theorem code
+import math
+a= int(input("Enter the value of a leg:"))
+b= int(input("Enter the value of the other leg:"))
+c=math.sqrt(a**2+b**2)
+if (a**2+b**2==c**2) and (c**2-a**2==b**2):
+    print ("The hypotenuse is:",+c)
+else:
+    print ("Not a right triangle")
+    
